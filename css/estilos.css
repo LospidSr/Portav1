@@ -3,7 +3,7 @@
 
 #body {
     font-family: 'Maven Pro', sans-serif;
-    background-color: #f7fcff;
+    background-color: #f1f1f6;
     color: #141a35;
 }
 
@@ -12,11 +12,11 @@
     font-size: 18px;
 }
 a:hover {
-    color: #da495f !important;
+    color: #b1d6ff !important;
     font-weight: bolder;
 }
 h1 {
-    color: #141a35 ;
+    color: #1f1f2e;
     font-size: 4rem !important; 
 }
 
@@ -25,14 +25,14 @@ span {
 }
 #sobremi img {
     width: 40%;
-    border: 1px solid #212529;
-    border-radius: 1%;
+    border: 1px solid #f1f1f6;
+    border-radius: 100%;
     
 }
 
 #trabajos img {
 
-    border:   1px solid #da495f ;
+    border:   1px solid #68697f;
 }
 /****************************/
 /* cartas de caracteristicas*/
@@ -40,14 +40,14 @@ span {
 .card {
     color: #161515;
     height: 300px;
-    border-color: #212529 !important;
+    border-color: #0d6efd !important;
     transition: all .3s;
   
 }
   
 .card:hover {
-    border: 3px solid red;
-    transform: scale(1.1);
+    border: 3px solid #161515 !important;
+    transform: scale(1.05);
 }
 .card span {
     font-weight: bold;
@@ -57,7 +57,7 @@ span {
 /****************************/
 .form-control {
     background-color: transparent !important;
-    border-color: #da495f !important;
+    border-color: #77777c !important;
 }
 
 
@@ -70,8 +70,8 @@ span {
     transition: all .2s;
 }
 #footer a:hover {
-    font-size: 22px;
-    color: #d80127 !important;
+    font-size: 25px;
+    color: #0d6efd !important;
 }
 .fa-facebook, .fa-twitter, .fa-youtube, .fa-whatsapp, .fa-linkedin-square {
     padding-left: 10px;
