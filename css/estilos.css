@@ -3,8 +3,8 @@
 
 #body {
     font-family: 'Maven Pro', sans-serif;
-    background-color: #161515;
-    color: whitesmoke;
+    background-color: #f7fcff;
+    color: #141a35;
 }
 
 .nav-link {
@@ -16,7 +16,7 @@ a:hover {
     font-weight: bolder;
 }
 h1 {
-    color: #0d9156;
+    color: #141a35 ;
     font-size: 4rem !important; 
 }
 
@@ -26,13 +26,13 @@ span {
 #sobremi img {
     width: 40%;
     border: 1px solid #212529;
-    border-radius: 3%;
+    border-radius: 1%;
     
 }
 
 #trabajos img {
 
-    border: solid whitesmoke;
+    border:   1px solid #da495f ;
 }
 /****************************/
 /* cartas de caracteristicas*/
@@ -40,8 +40,9 @@ span {
 .card {
     color: #161515;
     height: 300px;
-    border-color: rgba(211, 87, 87, 0.582) !important;
+    border-color: #212529 !important;
     transition: all .3s;
+  
 }
   
 .card:hover {
@@ -56,7 +57,7 @@ span {
 /****************************/
 .form-control {
     background-color: transparent !important;
-    border-color: #0d9156 !important;
+    border-color: #da495f !important;
 }
 
 
@@ -64,8 +65,8 @@ span {
 /********** Footer **********/
 /****************************/
 #footer a {
-    font-size: 20px;
-    color: whitesmoke;
+    font-size: 30px;
+    color: #212529 ;
     transition: all .2s;
 }
 #footer a:hover {
