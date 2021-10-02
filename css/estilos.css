@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');     
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Birthstone&family=Maven+Pro&display=swap');
+
+#body {
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #161515;
+    color: whitesmoke;
+}
+
+.nav-link {
+    color: whitesmoke !important;
+    font-size: 18px;
+}
+a:hover {
+    color: #da495f !important;
+    font-weight: bolder;
+}
+h1 {
+    color: #0d9156;
+    font-size: 4rem !important; 
+}
+
+span {
+    font-size: 20px;
+}
+#sobremi img {
+    width: 40%;
+    border: 1px solid #212529;
+    border-radius: 3%;
+    
+}
+
+#trabajos img {
+
+    border: solid whitesmoke;
+}
+/****************************/
+/* cartas de caracteristicas*/
+/****************************/
+.card {
+    color: #161515;
+    height: 300px;
+    border-color: rgba(211, 87, 87, 0.582) !important;
+    transition: all .3s;
+}
+  
+.card:hover {
+    border: 3px solid red;
+    transform: scale(1.1);
+}
+.card span {
+    font-weight: bold;
+}
+/****************************/
+/*********** Form ***********/
+/****************************/
+.form-control {
+    background-color: transparent !important;
+    border-color: #0d9156 !important;
+}
+
+
+/****************************/
+/********** Footer **********/
+/****************************/
+#footer a {
+    font-size: 20px;
+    color: whitesmoke;
+    transition: all .2s;
+}
+#footer a:hover {
+    font-size: 22px;
+    color: #d80127 !important;
+}
+.fa-facebook, .fa-twitter, .fa-youtube, .fa-whatsapp, .fa-linkedin-square {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
